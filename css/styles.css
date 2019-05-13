@@ -1,0 +1,59 @@
+body { font: 12px Arial;}
+
+path {
+    stroke-width: 2;
+    fill: none;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+div.tooltip {
+    position: absolute;
+    width: 140px;
+    height: 160px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: white;
+    border: 1px solid;
+    border-radius: 8px;
+    border-color: grey;
+    pointer-events: none;
+}
+
+div h2 {
+    color: red;
+}
+
+div b {
+    color: #4286f4;
+}
+
+g text {
+	font: 15px sans-serif;
+}
+
+.tick text {
+  font: 15px sans-serif;
+  color: darkslategray 
+}
+
+path, line {
+  color: darkslategray 
+}
+
+select {
+	width: 80px;
+	height: 30px;
+	position: absolute;
+}
+
+rect {
+    border: 2px;
+    border-color: black;
+}
